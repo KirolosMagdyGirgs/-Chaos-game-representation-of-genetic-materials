@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>launch page</title>
+    <link rel="stylesheet" href="./style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+</head>
+<body>
+    <div class="back">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+    <div class="box">
+        <img src="./fingerprint-solid.svg">
+        <div>
+            <h1> <center>chaos </center> representation</h1>
+            <form action="">
+                <div class="dropdown">
+                    <div class="dropdown-select">
+                        <select>
+                            <option value="">FASTA</option>
+                            <option value="">FASTAQ</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="list">
+                    <div class="list-select">
+                        <select>
+                            <option value="">DNA</option>
+                            <option value="">Protein</option>
+                        </select>
+                    </div>
+                </div>
+                 <div>
+                    <label for="username"></label>
+                    <input type="text" name="username" id="username" placeholder="URL"> 
+                    
+               </div>
+               <div class="upload">
+                   <input type="file" name="" id="uploadfile" style="display:none;">
+                   <label for="uploadfile" class="up"><i class="fas fa-cloud-upload-alt"></i> upload</label>
+               </div>
+                 <div>
+                    <label for="password"></label>
+                    <input type="number" name="password" id="password" placeholder="Number of k-mers">
+                </div>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
