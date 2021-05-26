@@ -27,5 +27,7 @@ download the python file (.py) and run using python environment
 
 ## References:
 https://towardsdatascience.com/chaos-game-representation-of-a-genetic-sequence-4681f1a67e14
+
 https://www.youtube.com/watch?v=oaG7ocRs5Ek
+
 https://www.youtube.com/watch?v=IGlGvSXkRGI&list=WL&index=161
